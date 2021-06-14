@@ -1,0 +1,7 @@
+a=[]
+b=int(input('Enter the length of the list'))
+for i in range(0,b):
+    a.append(int(input('Enter the list element')))
+for i in a:
+    if(i>0):
+        print(i,end=' ')
